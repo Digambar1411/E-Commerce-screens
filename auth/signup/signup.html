@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../auth.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <title>signup</title>
+</head>
+<body>
+    <div class="login-card flex-col">
+        <h1 class="text-center margin-zero">Sign up</h1>
+        <div class="flex-col ">
+            <label class="larger-font" for="email">Email address</label>
+            <input class="input padding-top-12px" type="email" placeholder="abc@gmail.com" required/>
+        </div>
+
+        <div class="flex-col">
+            <label class="larger-font" for="password">Password</label>
+            <input class="input padding-top-12px" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" id='password' type="password">
+        </div>
+
+        <div class="flex-col margin-top-8px">
+            <div class="flex-left">
+                <label class="flex-row">
+                    <input class="input-checkbox" type="checkbox" name="light"  value="">
+                    <span>Accept terms & condition</span>
+                </label>
+                
+            </div>
+
+        </div>
+        
+        <div >
+            <button class="w-100 login-btn"><a class="link-white" href="">Create account</a></button>
+        </div>
+
+        <div class="flex-row text-center margin-top-1rem">
+            <span>Already have account ?</span>
+            <div class="flex-center">
+                <a class=" link-black text-center" href="../login/login.html">Login</a>
+                <span class="material-icons-outlined bold">login</span>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
