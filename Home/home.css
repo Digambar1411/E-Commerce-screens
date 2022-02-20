@@ -1,12 +1,12 @@
-root{
+:root{
     --light-sky-blue:rgb(192, 210, 228);
     --search-input-border:#e2e2e2;
-    --card1-color:#cedbeb;
+    --card1-color:#98abc2;
 
 }
 .nav{
     justify-content: space-between;
-    padding: 12px 3rem;
+    padding: 0.75rem 3rem;
     background-color: var(--light-sky-blue);
 }
 
@@ -15,7 +15,7 @@ root{
 }
 
 .wrapper{
-    max-width: 700px;
+    max-width:43rem;
     border-radius: 5px;
     padding: 1rem;
 }
@@ -28,11 +28,11 @@ form {
     border-radius: 50px;
     border: 0;
     font-size:1rem;
-   
+
 }  
   
 .search-input {
-    width:200px;
+    width:12rem;
     flex-grow: 1;
     border: 2px solid var(--search-input-border);
     border-radius: 50px;
@@ -55,7 +55,7 @@ form {
 }
 
 .card-section-img{
- width:300px;
+    width:18.75rem;
 }
 
 .card-intro{
@@ -65,8 +65,8 @@ form {
 
 .card1{
     background-color: var(--card1-color);
-    width: 500px;
-    height: 250px;
+    width:31rem;
+    height:15rem;
     border:1px solid rgb(234, 234, 238);
     border-radius: 5px;
     box-shadow: #e2e2e2;
@@ -80,14 +80,16 @@ form {
     margin-top:0rem;
     gap: 1rem;
     position: absolute;
-    top: 400px;    
+    top: 400px;
+    text-align: center;   
 }
+
 .sitename{
     font-size: 1.5rem;
 }
 
 .site-info{
- font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .deal{
