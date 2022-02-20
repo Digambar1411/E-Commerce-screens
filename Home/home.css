@@ -1,6 +1,7 @@
 root{
     --light-sky-blue:rgb(192, 210, 228);
     --search-input-border:#e2e2e2;
+    --card1-color:#cedbeb;
 
 }
 .nav{
@@ -63,7 +64,7 @@ form {
 }
 
 .card1{
-    background-color: #cedbeb;
+    background-color: var(--card1-color);
     width: 500px;
     height: 250px;
     border:1px solid rgb(234, 234, 238);
