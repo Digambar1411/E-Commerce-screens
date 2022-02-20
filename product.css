@@ -1,0 +1,25 @@
+.gap-40px{
+    gap:2.5rem;
+}
+.flex-btwn{
+    justify-content:space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.products-container{
+    padding:2.5rem;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.container-title{
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:1rem 0;
+    font-size:1.5rem;
+}
+
+.margin-bottom-2rem{
+    margin-bottom:2rem;
+}
