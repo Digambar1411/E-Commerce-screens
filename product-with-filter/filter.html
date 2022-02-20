@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet"> 
+    <link rel="stylesheet" href="https://components-ui.netlify.app/neo.css">
+    <link rel="stylesheet" href="../Wishlist/wishlist.css">
+    <link rel="stylesheet" href="../product.css">
+    <link rel="stylesheet" href="filter.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="nav flex center">
+           <div class="sitename"><h2>Lappy Shop</h2></div>
+           <div class="wrapper">
+            <form action="">
+              <input class="search-input" type="text"name=""id=""placeholder="What are you looking for?"/>
+              <button class="solid primary-solid search-btn">Search</button>
+            </form>
+          </div>
+           
+           <div class="flex nav-icon center">
+                <button class="solid primary-solid"><a class="link-white" href="../auth/login/login.html">Login</a></button>
+                <a href="../Wishlist/wishlist.html"><span class="material-icons-outlined">favorite_border</span></a>
+                <a href="../Cart/cart.html"><span class="material-icons">shopping_cart</span></a>
+           </div>
+        </nav>
+    </header>
+
+    <div class="flex">
+        <div class="aside marg">
+            <div class="flex flex-space-btwn">
+                <p>Filters</p>
+                <p class="text-underline"> <a class="" href="">Clear</a> </p>
+            </div>
+           
+            <div class="flex-col gap-1rem">
+                <p class="filter-title">Brand</p>
+               <div>
+                <input type="checkbox" name="brand1" id="dell">
+                <label for="dell">Dell</label>
+               </div>
+
+               <div>
+                <input type="checkbox" name="brand2" id="hp">
+                <label for="dell">HP</label>
+               </div>
+               
+               <div>
+                <input type="checkbox" name="brand3" id="asus">
+                <label for="dell">Asus</label>
+               </div>
+
+               <div>
+                <input type="checkbox" name="brand4" id="lenove">
+                <label for="dell">Lenovo</label>
+               </div>
+
+               <div>
+                <input type="checkbox" name="brand5" id="acer">
+                <label for="dell">Acer</label>
+               </div>
+            </div>
+
+            <div class="flex-col gap-1rem">
+                <p class="filter-title">Rating</p>
+                <div>
+                    <input type="radio" name="rating1" id="four">
+                    <label for="four">4 star and above</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="rating2" id="three">
+                    <label for="four">3 star and above</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="rating3" id="two">
+                    <label for="four">2 star and above</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="rating4" id="one">
+                    <label for="four">1 star and above</label>
+                </div>
+            </div>
+
+            <div class="flex-col gap-1rem block">
+                <p class="filter-title">Price</p>
+                <div>
+                    <input type="radio" name="price1" id="low">
+                    <label for="low">Price Low-to-High</label>
+                </div>
+                <div>
+                    <input type="radio" name="price2" id="high">
+                    <label for="low">Price High-to-Low</label>
+                </div>
+            </div>
+        
+            <div class="filter-btn flex">
+                <button class="solid primary-solid">Apply</button>
+            </div>
+        </div>
+
+        <div class="products-container main-bar">
+            <p class="container-title flex text-bold">Showing all Results</p>
+            <hr class="margin-bottom-2rem">
+            <div class="flex-wrap flex gap-40px">
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                </div>
+          
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                  </div>
+          
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                  </div>
+    
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                  </div>
+          
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                  </div>
+        
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                  </div>
+          
+                <div class="card">
+                    <div class="body">
+                        <div>
+                            <img class="img-size" src="../images/laptop2.webp" alt="">
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <h3 class="card-title">HP</h3>
+                            <h4 class="card-sub-title">HP 14s-dr2512TU</h4>
+                        </div>
+          
+                        <div class="body-content div-padding">
+                            <p class="content">HP 14s-dr2512TU 11th Gen Core i3 Windows 11 Home Laptop (8GB RAM, 256GB SSD, Intel UHD Graphics, MS Office, 35.60 cm, 536B6PA#ACJ, Silver)</p>
+                        </div>    
+                    </div>
+          
+                    <div class="flex-row div-padding">
+                        <div class="flex-card"> 
+                            <div class="flex-card">
+                                <span class="bold-large">₹40,990</span>  
+                                <span class="text-strike-through">₹65,990</span>
+                                <span class="text-lightblue">(34% off)</span>           
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="card-footer div-padding">
+                        <div class="flex-col center gap-1rem width-100">                                     
+                            <button class="solid primary-solid width-100">Buy Now</button>
+                            <button class="btn-outline secondary-outline width-100">Add to Wishlist</button>                               
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

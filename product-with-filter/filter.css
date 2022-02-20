@@ -1,0 +1,29 @@
+.main-bar{
+    width: 80%;
+    padding-left:2rem;  
+}
+
+.aside{
+    width: 18%;
+    margin-top:4rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    overflow-y: scroll;
+}
+
+.filter-title{
+    font-weight:bold;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+}
+
+.flex-space-btwn{
+    justify-content: space-between;
+}
+.filter-btn{
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+.text-underline{
+    text-decoration: underline;
+}
