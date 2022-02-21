@@ -1,1 +1,1 @@
-E-Commerce website : Lappy Shop is online platform to buy laptops sitting at your home
+E-Commerce website : Lappy Shop is platform to buy best laptops online sitting at your home
