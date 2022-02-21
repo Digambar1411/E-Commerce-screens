@@ -7,24 +7,45 @@
     <link rel="stylesheet" href="../auth.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
       rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet"> 
+    <link rel="stylesheet" href="https://components-ui.netlify.app/neo.css">
+    <link rel="stylesheet" href="/Wishlist/wishlist.css">
     <title>signup</title>
 </head>
 <body>
+    <header>
+        <nav class="nav flex center">
+           <div class="sitename"><h2>Lappy Shop</h2></div>
+           <div class="wrapper">
+            <form action="">
+              <input class="search-input" type="text"name=""id=""placeholder="What are you looking for?"/>
+              <button class="solid primary-solid search-btn">Search</button>
+            </form>
+          </div>
+           
+           <div class="flex nav-icon center">
+                <button class="solid primary-solid"><a class="link-white" href="../login/login.html">Login</a></button>
+                <a href="/Wishlist/wishlist.html"><span class="material-icons-outlined">favorite_border</span></a>
+                <a href="/Cart/cart.html" class="material-icons">shopping_cart</span></a>
+           </div>
+        </nav>
+    </header>
     <div class="login-card flex-col">
         <h1 class="text-center margin-zero">Sign up</h1>
-        <div class="flex-col ">
+        <div class="flex-col-login">
             <label class="larger-font" for="email">Email address</label>
             <input class="input padding-top-12px" type="email" placeholder="abc@gmail.com" required/>
         </div>
 
-        <div class="flex-col">
+        <div class="flex-col-login">
             <label class="larger-font" for="password">Password</label>
             <input class="input padding-top-12px" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" id='password' type="password">
         </div>
 
-        <div class="flex-col margin-top-8px">
+        <div class="flex-col-login margin-top-8px">
             <div class="flex-left">
-                <label class="flex-row">
+                <label class="flex-row-login">
                     <input class="input-checkbox" type="checkbox" name="light"  value="">
                     <span>Accept terms & condition</span>
                 </label>
@@ -37,7 +58,7 @@
             <button class="w-100 login-btn"><a class="link-white" href="">Create account</a></button>
         </div>
 
-        <div class="flex-row text-center margin-top-1rem">
+        <div class="flex-row-login text-center margin-top-1rem">
             <span>Already have account ?</span>
             <div class="flex-center">
                 <a class=" link-black text-center" href="../login/login.html">Login</a>
