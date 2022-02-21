@@ -81,7 +81,8 @@ form {
     gap: 1rem;
     position: absolute;
     top: 400px;
-    text-align: center;   
+    text-align: center;
+    left: 400px;   
 }
 
 .sitename{
