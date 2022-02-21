@@ -79,10 +79,8 @@ form {
 .main-text{
     margin-top:0rem;
     gap: 1rem;
-    position: absolute;
-    top: 400px;
     text-align: center;
-    left: 400px;   
+   
 }
 
 .sitename{
